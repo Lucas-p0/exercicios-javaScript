@@ -1,7 +1,8 @@
 let notas = [10, 6.5, 8, 7.5];
-let media = 0;
+let somaDasNotas = 0;
 
 for (let i = 0; i < notas.length; i++) {
-  media += notas[i];
+  somaDasNotas += notas[i];
 }
-console.log(media / 4);
+let media = somaDasNotas / 4;
+console.log(media);
